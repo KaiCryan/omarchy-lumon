@@ -37,7 +37,7 @@ marker-guarded blocks), so `omarchy update` never severs it, and every repo ship
 
 ![The lock screen, the terminal greeting, and the Lumon HQ wallpaper](docs/hero.jpg)
 
-<sub>Lock → greeting → wallpaper. Screensaver, boot splash and theme not yet photographed.</sub>
+<sub>Lock → greeting → screensaver → wallpaper. Boot splash and theme not yet photographed.</sub>
 
 </div>
 

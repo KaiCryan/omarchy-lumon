@@ -1,43 +1,65 @@
 <div align="center">
 
-# 🌐 Omarchy · Lumon Industries
+```
+███░            ░██▓           ▒██▒ ▓███▓           ░▓███▒  ▒██████████████▒  ▒███▒         ░███
+███░            ░██▓           ▒██▓ ▓████▓░        ░█████▒ ▓████████████████▓ ▒█████▒       ░███
+███░            ░██▓           ▒██▓ ▓██▓███░      ▒██▓▓██▒ ███████▓ ░▓██████▓ ▒██▒▒███▒     ░███
+███░            ░██▓           ▒██▓ ▓██▒░███▒    ▓██▓ ▒██▒ ██████▒    ▒█████▓ ▒██▒  ▒███▒   ░███
+███░            ░██▓           ▒██▓ ▓██▒  ▓██▒  ▓██▒  ▓██▒ ██████░    ░█████▓ ▒██▒    ░███▓ ░███
+███░            ░██▓░          ▒██▒ ▓██▒   ▒██████░   ▓██▒ ███████▒ ░▒██████▓ ▒██▒      ░▓██████
+████████████████▒▓████████████████░ ▓██▒    ▒████░    ▓██▒ ▒████████████████▒ ▒██▒        ░▓████
+```
 
-**A whole-system _Severance_ theme for [Omarchy](https://omarchy.org) — boot to lock screen.**
+# Omarchy · Lumon Industries
 
-Every stage of using the machine, re-skinned as Lumon: the Plymouth splash while it
-boots, the "enter your access code" lock screen, an animated terminal greeting, the
-severed-floor crew as wallpapers, an ambient screensaver reel, colour + look'n'feel
-polish, and a rotating quote placard on the desktop.
+**A whole-system _Severance_ theme for [Omarchy](https://omarchy.org).**
 
-Each piece is its own repo — take the whole set or just the parts you want. Everything
-installs **on top of** Omarchy's own code (patches / plugins / marker-guarded blocks),
-so `omarchy update` never reverts it, and every repo ships an uninstaller.
-
-<!-- TODO: add docs/hero.jpg (a 2x4 contact sheet or a short looping gif of the full flow),
-     then uncomment the line below -->
-<!-- ![The Lumon desktop](docs/hero.jpg) -->
-_Screenshots coming — see the individual repos for previews in the meantime._
+<sub>B O O T · L O C K · G R E E T · W A L L P A P E R · S C R E E N S A V E R · T H E M E · Q U O T E</sub>
 
 </div>
 
 ---
 
-## The set
+> *Welcome. The remembering you will do here is a gift.*
 
-| Repo | What it does | Preview |
-|---|---|---|
-| **[omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot)** | Plymouth boot splash — Lumon globe on the dark ground, matching LUKS password prompt | <!-- docs/boot.jpg --> |
-| **[omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock)** | Lock screen — prompts _"Enter your access code"_, L U M O N / United in Severance caption, 60s wake light | <!-- docs/lock.jpg --> |
-| **[omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting)** | Terminal greeting — 19 animations (spinning globe, the descent, an MDR bin filling, Defiant Jazz…), then `fastfetch` | <!-- docs/greeting.gif --> |
-| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | The severed-floor crew as ASCII line portraits + clean 4K brand wallpapers, with an hourly cycler | <!-- docs/wallpapers.jpg --> |
-| **[omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver)** | Capped-fps `ttfx` effects + an ambient reel of 8 looping scenes. Won't drop over a video that's playing. | <!-- docs/screensaver.gif --> |
-| **[omarchy-lumon-theme](https://github.com/KaiCryan/omarchy-lumon-theme)** | Colour scheme, Hyprland look'n'feel (gaps, blur, cyan drop shadow), `fastfetch` + `omarchy about` branding | <!-- docs/theme.jpg --> |
-| **[omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote)** | A Variety-style rotating quote placard over the wallpaper, behind your windows. Plain-text quotes file. | <!-- docs/quote.jpg --> |
-| **[omarchy-lumon-assets](https://github.com/KaiCryan/omarchy-lumon-assets)** | Shared ASCII art, font list and build tools the other repos pull from | — |
+Every moment of using the machine, refined into one face. The Plymouth globe while it
+boots. The *"enter your access code"* lock screen. A short animation in the first
+terminal of the day. The severed-floor crew looking back at you from the wallpaper.
+An ambient reel when you step away. Colour, blur and shadow tuned to match. And a
+single quote, placed gently on the desktop, refreshed before it wearies.
+
+Each piece is its own repository — enroll the whole department or just the roles you
+need. Everything installs **on top of** Omarchy's own code (patches, plugins,
+marker-guarded blocks), so `omarchy update` never severs it, and every repo ships an
+`uninstall.sh`.
+
+<div align="center">
+
+<!-- TODO: add docs/hero.jpg (a 2x4 contact sheet or a short looping gif of the full flow),
+     then uncomment the line below -->
+<!-- ![The Lumon desktop](docs/hero.jpg) -->
+<em>Departmental photography pending. See each repository for its own preview.</em>
+
+</div>
 
 ---
 
-## Install the lot
+## The department
+
+| Role | Function | Preview |
+|---|---|---|
+| **[omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot)** | Plymouth boot splash — the Lumon globe on the dark ground, with a matching prompt for encrypted disks | <!-- docs/boot.jpg --> |
+| **[omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock)** | Lock screen — asks for your *access code*, **L U M O N / United in Severance** caption, stays lit 60s after a wake | <!-- docs/lock.jpg --> |
+| **[omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting)** | Terminal greeting — 19 animations (the globe, the descent, an MDR bin filling, Defiant Jazz…), then `fastfetch` | <!-- docs/greeting.gif --> |
+| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | The refiners as ASCII line portraits, plus clean 4K Lumon brand wallpapers, with an hourly cycler | <!-- docs/wallpapers.jpg --> |
+| **[omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver)** | Capped-fps `ttfx` effects + an ambient reel of eight looping scenes. Holds back while a video is playing. | <!-- docs/screensaver.gif --> |
+| **[omarchy-lumon-theme](https://github.com/KaiCryan/omarchy-lumon-theme)** | The connective tissue — colour scheme, Hyprland look'n'feel (gaps, blur, cyan drop shadow), `fastfetch` + `omarchy about` branding | <!-- docs/theme.jpg --> |
+| **[omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote)** | A rotating quote placard over the wallpaper, behind your windows. Plain-text quotes file, hot-reloaded. | <!-- docs/quote.jpg --> |
+| **[omarchy-lumon-assets](https://github.com/KaiCryan/omarchy-lumon-assets)** | Shared materials — ASCII art, font list, build tools the other repos draw from | — |
+
+---
+
+## Onboarding
 
 ```sh
 git clone https://github.com/KaiCryan/omarchy-lumon
@@ -45,25 +67,31 @@ cd omarchy-lumon
 ./install-all.sh
 ```
 
-`install-all.sh` clones each repo into `~/.local/share/omarchy-lumon/` and runs its
-installer in order. It'll stop and ask before the one step that needs `sudo`
-(the boot splash). Skip pieces with flags:
+`install-all.sh` clones each repository into `~/.local/share/omarchy-lumon/` and runs
+its installer in order. It pauses to ask before the one step that needs `sudo` (the
+boot splash). Decline any role you'd rather not fill:
 
 ```sh
 ./install-all.sh --skip boot --skip quote
 ```
 
-Or just follow the install steps in whichever individual repos you want.
+Or simply follow the install steps in whichever individual repos you want.
 
-## Uninstall
+## Severance
 
-Run `./uninstall.sh` in each repo you installed (or `./uninstall-all.sh` here), then
-`omarchy theme set <something-else>` to drop the Lumon colours.
+Run `./uninstall.sh` in each repo you enrolled (or `./uninstall-all.sh` here), then
+`omarchy theme set <something-else>` to release the Lumon colours. You will not
+remember the wallpapers. This is by design.
 
 ---
 
 <div align="center">
-<sub>Not affiliated with Apple TV+ or the <em>Severance</em> production. A personal,
-non-commercial desktop theme. Character portraits are built from Wikimedia headshots —
-see <code>SOURCES.md</code> in the wallpapers repo.</sub>
+<sub>
+
+*The work is mysterious and important.*
+
+A personal, non-commercial *Severance* tribute · not affiliated with Apple TV+ or the production.<br>
+Character portraits are built from Wikimedia headshots — see <code>SOURCES.md</code> in the wallpapers repo.
+
+</sub>
 </div>

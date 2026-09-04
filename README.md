@@ -35,10 +35,9 @@ marker-guarded blocks), so `omarchy update` never severs it, and every repo ship
 
 <div align="center">
 
-<!-- TODO: add docs/hero.jpg (a 2x4 contact sheet or a short looping gif of the full flow),
-     then uncomment the line below -->
-<!-- ![The Lumon desktop](docs/hero.jpg) -->
-<em>Departmental photography pending. See each repository for its own preview.</em>
+![The lock screen, the terminal greeting, and the Lumon HQ wallpaper](docs/hero.jpg)
+
+<sub>Lock → greeting → wallpaper. Screensaver, boot splash and theme not yet photographed.</sub>
 
 </div>
 
@@ -49,9 +48,9 @@ marker-guarded blocks), so `omarchy update` never severs it, and every repo ship
 | Role | Function | Preview |
 |---|---|---|
 | **[omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot)** | Plymouth boot splash — the Lumon globe on the dark ground, with a matching prompt for encrypted disks | <!-- docs/boot.jpg --> |
-| **[omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock)** | Lock screen — asks for your *access code*, **L U M O N / United in Severance** caption, stays lit 60s after a wake | <!-- docs/lock.jpg --> |
-| **[omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting)** | Terminal greeting — 19 animations (the globe, the descent, an MDR bin filling, Defiant Jazz…), then `fastfetch` | <!-- docs/greeting.gif --> |
-| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | The refiners as ASCII line portraits, plus clean 4K Lumon brand wallpapers, with an hourly cycler | <!-- docs/wallpapers.jpg --> |
+| **[omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock)** | Lock screen — asks for your *access code*, **L U M O N / United in Severance** caption, stays lit 60s after a wake | <a href="https://github.com/KaiCryan/omarchy-lumon-lock#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-lock/raw/main/docs/lock-poster.jpg"></a> |
+| **[omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting)** | Terminal greeting — 19 animations (the globe, the descent, an MDR bin filling, Defiant Jazz…), then `fastfetch` | <a href="https://github.com/KaiCryan/omarchy-lumon-greeting#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-greeting/raw/main/docs/greeting-poster.jpg"></a> |
+| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | The refiners as ASCII line portraits, plus clean 4K Lumon brand wallpapers, with an hourly cycler | <a href="https://github.com/KaiCryan/omarchy-lumon-wallpapers#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-wallpapers/raw/main/docs/wallpaper-showcase.jpg"></a> |
 | **[omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver)** | Capped-fps `ttfx` effects + an ambient reel of eight looping scenes. Holds back while a video is playing. | <!-- docs/screensaver.gif --> |
 | **[omarchy-lumon-theme](https://github.com/KaiCryan/omarchy-lumon-theme)** | The connective tissue — colour scheme, Hyprland look'n'feel (gaps, blur, cyan drop shadow), `fastfetch` + `omarchy about` branding | <!-- docs/theme.jpg --> |
 | **[omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote)** | A rotating quote placard over the wallpaper, behind your windows. Plain-text quotes file, hot-reloaded. | <!-- docs/quote.jpg --> |

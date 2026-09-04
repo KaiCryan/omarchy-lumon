@@ -13,8 +13,10 @@ Each piece is its own repo — take the whole set or just the parts you want. Ev
 installs **on top of** Omarchy's own code (patches / plugins / marker-guarded blocks),
 so `omarchy update` never reverts it, and every repo ships an uninstaller.
 
-<!-- TODO: hero image — a 2x4 contact sheet or a short looping gif of the full flow -->
-![The Lumon desktop](docs/hero.jpg)
+<!-- TODO: add docs/hero.jpg (a 2x4 contact sheet or a short looping gif of the full flow),
+     then uncomment the line below -->
+<!-- ![The Lumon desktop](docs/hero.jpg) -->
+_Screenshots coming — see the individual repos for previews in the meantime._
 
 </div>
 

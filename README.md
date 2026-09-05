@@ -50,10 +50,10 @@ marker-guarded blocks), so `omarchy update` never severs it, and every repo ship
 | **[omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot)** | Plymouth boot splash — the Lumon globe on the dark ground, with a matching prompt for encrypted disks | <!-- docs/boot.jpg --> |
 | **[omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock)** | Lock screen — asks for your *access code*, **L U M O N / United in Severance** caption, stays lit 60s after a wake | <a href="https://github.com/KaiCryan/omarchy-lumon-lock#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-lock/raw/main/docs/lock-poster.jpg"></a> |
 | **[omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting)** | Terminal greeting — 19 animations (the globe, the descent, an MDR bin filling, Defiant Jazz…), then `fastfetch` | <a href="https://github.com/KaiCryan/omarchy-lumon-greeting#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-greeting/raw/main/docs/greeting-poster.jpg"></a> |
-| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | The refiners as ASCII line portraits, plus clean 4K Lumon brand wallpapers, with an hourly cycler | <a href="https://github.com/KaiCryan/omarchy-lumon-wallpapers#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-wallpapers/raw/main/docs/wallpaper-showcase.jpg"></a> |
+| **[omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers)** | Real severed-floor stills — the corridor, the elevator, the MDR office — plus stop-motion opening-titles frames, official key art, and a clean 4K brand piece, with an hourly cycler | <a href="https://github.com/KaiCryan/omarchy-lumon-wallpapers#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-wallpapers/raw/main/docs/wallpaper-showcase.jpg"></a> |
 | **[omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver)** | Capped-fps `ttfx` effects + an ambient reel of eight looping scenes. Holds back while a video is playing. | <a href="https://github.com/KaiCryan/omarchy-lumon-screensaver#readme"><img width="140" src="https://github.com/KaiCryan/omarchy-lumon-screensaver/raw/main/docs/numbers-poster.jpg"></a> |
 | **[omarchy-lumon-theme](https://github.com/KaiCryan/omarchy-lumon-theme)** | The connective tissue — colour scheme, Hyprland look'n'feel (gaps, blur, cyan drop shadow), `fastfetch` + `omarchy about` branding | <!-- docs/theme.jpg --> |
-| **[omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote)** | A rotating quote placard over the wallpaper, behind your windows. Plain-text quotes file, hot-reloaded. | <!-- docs/quote.jpg --> |
+| **[omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote)** | A rotating quote placard over the wallpaper, behind your windows. Plain-text quotes file, hot-reloaded, with an auto-position mode that finds whichever side of the wallpaper has more empty space. | <!-- docs/quote.jpg --> |
 | **[omarchy-lumon-assets](https://github.com/KaiCryan/omarchy-lumon-assets)** | Shared materials — ASCII art, font list, build tools the other repos draw from | — |
 
 ---
@@ -90,7 +90,7 @@ remember the wallpapers. This is by design.
 *The work is mysterious and important.*
 
 A personal, non-commercial *Severance* tribute · not affiliated with Apple TV+ or the production.<br>
-Character portraits are built from Wikimedia headshots — see <code>SOURCES.md</code> in the wallpapers repo.
+Wallpapers mix real stills, opening-titles frames, and official key art — see <code>wallpapers/SOURCES.md</code> in the wallpapers repo.
 
 </sub>
 </div>
